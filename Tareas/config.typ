@@ -52,5 +52,6 @@
   doc
 }
 
-#let sim = math.tilde.eq
-#let id(X) = $bb(1)_(#X)$
+#let sim = math.tilde.eq // homeomorphism equivalence
+ #let id(X) = $bb(1)_(#X)$ // the identity map
+#let gf(X) = $pi_1(#X)$ // the fundamental group
